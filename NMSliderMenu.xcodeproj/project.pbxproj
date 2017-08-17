@@ -19,6 +19,7 @@
 		5860D48E1F458F4F00048CD4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5860D48D1F458F4F00048CD4 /* SecondViewController.swift */; };
 		5860D4901F458F5C00048CD4 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5860D48F1F458F5C00048CD4 /* ThirdViewController.swift */; };
 		5860D4921F458F6B00048CD4 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5860D4911F458F6B00048CD4 /* FourthViewController.swift */; };
+		5860D4951F459D8D00048CD4 /* NMSlideDemo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5860D4941F459D8D00048CD4 /* NMSlideDemo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		5860D48D1F458F4F00048CD4 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		5860D48F1F458F5C00048CD4 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		5860D4911F458F6B00048CD4 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		5860D4941F459D8D00048CD4 /* NMSlideDemo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = NMSlideDemo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		5860D4631F4560B200048CD4 = {
 			isa = PBXGroup;
 			children = (
+				5860D4941F459D8D00048CD4 /* NMSlideDemo.gif */,
 				5860D46E1F4560B200048CD4 /* NMSliderMenu */,
 				5860D46D1F4560B200048CD4 /* Products */,
 			);
@@ -154,6 +157,7 @@
 			files = (
 				5860D4851F4562A000048CD4 /* NMSlider.storyboard in Resources */,
 				5860D47A1F4560B200048CD4 /* LaunchScreen.storyboard in Resources */,
+				5860D4951F459D8D00048CD4 /* NMSlideDemo.gif in Resources */,
 				5860D4771F4560B200048CD4 /* Assets.xcassets in Resources */,
 				5860D4751F4560B200048CD4 /* Main.storyboard in Resources */,
 			);
@@ -337,6 +341,7 @@
 				5860D4801F4560B200048CD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
