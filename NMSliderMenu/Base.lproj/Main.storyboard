@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ObP-kT-yW1">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--First View Controller-->
+        <scene sceneID="cMf-dd-m0Z">
+            <objects>
+                <viewController storyboardIdentifier="FirstViewController" id="41P-yO-buS" customClass="FirstViewController" customModule="NMSliderMenu" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XTt-0Y-Gx5"/>
+                        <viewControllerLayoutGuide type="bottom" id="eM4-IJ-wWi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Hvw-G8-Zfs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.95163583860000001" green="1" blue="0.61727589270000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gK0-tG-cDE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-650" y="-110"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="lG3-jx-Qfj">
+            <objects>
+                <viewController storyboardIdentifier="SecondViewController" id="JvM-Ae-YM9" customClass="SecondViewController" customModule="NMSliderMenu" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BVw-mh-H8x"/>
+                        <viewControllerLayoutGuide type="bottom" id="E1b-Ja-pg5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BmP-4I-deZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.1052976214" green="1" blue="0.29681932239999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XeI-Zy-ada" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="128" y="-90"/>
+        </scene>
+        <!--Third View Controller-->
+        <scene sceneID="UkU-n5-gvQ">
+            <objects>
+                <viewController storyboardIdentifier="ThirdViewController" id="905-Yd-Trl" customClass="ThirdViewController" customModule="NMSliderMenu" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FXU-JT-AQm"/>
+                        <viewControllerLayoutGuide type="bottom" id="IHN-wt-wyS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4yU-4p-QDI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.86274509799999999" green="0.41176470590000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pUy-V2-UKC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-674" y="670"/>
+        </scene>
+        <!--Fourth View Controller-->
+        <scene sceneID="XZP-03-xxL">
+            <objects>
+                <viewController storyboardIdentifier="FourthViewController" id="3WM-ti-bkC" customClass="FourthViewController" customModule="NMSliderMenu" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ttS-2j-Fph"/>
+                        <viewControllerLayoutGuide type="bottom" id="snC-pO-MJp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="D7H-Bt-nb3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.17331628639999999" blue="0.2391371927" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9qP-xH-1a8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="157" y="623"/>
+        </scene>
+        <!--Slider ContainerVC View Controller-->
+        <scene sceneID="Oin-N2-pqH">
+            <objects>
+                <viewController id="ObP-kT-yW1" customClass="NMSliderContainerVCViewController" customModule="NMSliderMenu" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JEu-r9-uvn"/>
+                        <viewControllerLayoutGuide type="bottom" id="Tk2-Qr-bpe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gc0-LL-c9W">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W52-en-nwd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2103" y="243"/>
+        </scene>
+    </scenes>
+</document>

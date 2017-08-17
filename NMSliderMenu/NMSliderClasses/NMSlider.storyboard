@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Slider MenuVC-->
+        <scene sceneID="8JZ-rW-iVN">
+            <objects>
+                <viewController storyboardIdentifier="NMSliderMenuVC" id="CUd-nH-FmQ" customClass="NMSliderMenuVC" customModule="NMSliderMenu" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6NV-nS-6v5"/>
+                        <viewControllerLayoutGuide type="bottom" id="Lk1-9z-9wN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0F9-j7-aqo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="65" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Fl6-5d-cM6">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="menuCell" rowHeight="65" id="EQj-Ig-wD3">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="65"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="EQj-Ig-wD3" id="KFx-dU-Mvu">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="65"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="CUd-nH-FmQ" id="lZd-Sy-YGJ"/>
+                                    <outlet property="delegate" destination="CUd-nH-FmQ" id="SEg-YW-8Y9"/>
+                                    <outletCollection property="gestureRecognizers" destination="6Ez-1k-77p" appends="YES" id="ges-1I-1p4"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Fl6-5d-cM6" secondAttribute="trailing" id="Fve-bD-5Af"/>
+                            <constraint firstItem="Fl6-5d-cM6" firstAttribute="leading" secondItem="0F9-j7-aqo" secondAttribute="leading" id="WuN-z9-z8V"/>
+                            <constraint firstItem="Fl6-5d-cM6" firstAttribute="top" secondItem="6NV-nS-6v5" secondAttribute="bottom" id="dhn-9m-Fij"/>
+                            <constraint firstItem="Lk1-9z-9wN" firstAttribute="top" secondItem="Fl6-5d-cM6" secondAttribute="bottom" id="u7B-TR-fkf"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="spaceFromLeft" destination="Fve-bD-5Af" id="yBE-3P-dOr"/>
+                        <outlet property="tableViewMenu" destination="Fl6-5d-cM6" id="FtU-ax-rA6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yzo-rc-Koe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="6Ez-1k-77p"/>
+            </objects>
+            <point key="canvasLocation" x="958" y="38"/>
+        </scene>
+    </scenes>
+</document>
