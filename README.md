@@ -1,10 +1,9 @@
 # NMSliderMenu
 Customizable sliding view controller container.
 
-[![NMSliderMenu](https://github.com/Nexengineer/NMSliderMenu/raw/master/NMSlideDemo.gif =100x20)]
 <img src="https://github.com/Nexengineer/NMSliderMenu/raw/master/NMSlideDemo.gif" alt="NMSliderMenu" width="250" height="450">
 
-
+# Usage:
 #Steps 1:
 Copy all the files from NMSliderClasses to your project.
 
